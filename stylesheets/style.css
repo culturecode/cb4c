@@ -1,0 +1,21 @@
+body{
+  padding: 4em 0;
+}
+#intro_para{
+  color: #757779;
+  font-size: 1.2em;
+  margin: 2em 0 0;
+}
+.cell_image{
+  width: 100%;
+}
+.column_cell{
+  background-color: black;
+  color: white;
+  margin: 2em 0 0;
+  padding: 1px 0; /* Make padding margin not overflow */
+}
+.column_cell .cell_content{
+  text-align: center;
+  margin: 1em;
+}
