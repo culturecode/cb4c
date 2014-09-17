@@ -5,6 +5,21 @@ a:hover{
 body{
   padding: 4em 0;
 }
+
+.intro_h{
+  color: #24B2C7;
+  line-height: 1.3;
+  font-family: Calibri, Arial Unicode MS, Helvetica, Arial;
+  font-size: 1.1em;
+  padding-right: 40px;
+}
+.intro_en{
+  line-height: 1.3;
+  font-family: Calibri, Arial Unicode MS, Helvetica, Arial;
+  font-size: 1.1em;
+  text-align: right;
+}
+
 #intro_para{
   color: #757779;
   font-size: 1.2em;
