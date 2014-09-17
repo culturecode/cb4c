@@ -1,3 +1,7 @@
+a:hover{
+  text-decoration: none;
+}
+
 body{
   padding: 4em 0;
 }
@@ -14,8 +18,57 @@ body{
   color: white;
   margin: 2em 0 0;
   padding: 1px 0; /* Make padding margin not overflow */
+  border-radius: 5px;
+  overflow: hidden;
 }
 .column_cell .cell_content{
   text-align: center;
   margin: 1em;
+}
+
+.column_cell#twitter_cell{
+  padding-top: 200%;
+  padding-bottom: 0;
+  position: relative;
+  background: none;
+  text-align: center; /* Since the twitter stream won't resize up, center it */
+}
+.column_cell#twitter_cell iframe{
+  height: 100% !important;
+  left: 0;
+  min-width: auto !important;
+  position: absolute;
+  top: 0;
+  width: 100% !important;
+}
+
+.cell_content.exhibit_info{
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.vevent .category,
+.vevent .description{
+  margin: 1em 0;
+}
+.vevent .location.vcard a{
+  display: block;
+}
+.vevent .location.vcard{
+  margin: 1em 0;
+}
+.vevent .location.vcard .fn.org{
+  display: block;
+}
+
+.vevent .street-address,
+.vevent .postal-code {
+  display: block;
+}
+
+.vevent .category {
+  display: none;
 }
