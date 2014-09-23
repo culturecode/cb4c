@@ -73,7 +73,7 @@ body{
   display: block;
 }
 .vevent .location.vcard{
-  margin: 1em 0;
+  margin: 2em 0 1em 0;
 }
 .vevent .location.vcard .fn.org{
   display: block;
